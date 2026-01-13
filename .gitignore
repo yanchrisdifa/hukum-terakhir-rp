@@ -1,0 +1,25 @@
+# --- Secrets (NEVER UPLOAD THESE) ---
+server.cfg
+*.cfg
+!permissions.cfg
+!server.cfg.example
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- TxData Generated Files ---
+/cache/
+/logs/
+/crashes/
+/backups/
+/alpine/
+/tmp/
+
+# --- Optional: Large Assets ---
+# Uncomment the lines below if you don't want to track huge car/map files
+# [assets]
+# [cars]
+# [maps]
+
+
